@@ -1,0 +1,17 @@
+name: "Pascal Editor"
+version: "1.0.3"
+slug: "pascal"
+description: "3D architectural editor (Pascal) dung de ve lai mo hinh nha"
+url: "https://github.com/pascalorg/editor"
+arch:
+  - amd64
+  - aarch64
+init: false
+startup: application
+boot: auto
+ports:
+  3000/tcp: 3011
+ports_description:
+  3000/tcp: "Pascal web UI"
+options: {}
+schema: {}
